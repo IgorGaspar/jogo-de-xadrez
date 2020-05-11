@@ -15,12 +15,12 @@
             this.qteMovimentos = 0;
         }
 
-        public void incremenentarQteMovimentos()
+        public void incrementarQteMovimentos()
         {
             qteMovimentos++;
         }
 
-        public void decremenentarQteMovimentos()
+        public void decrementarQteMovimentos()
         {
             qteMovimentos--;
         }

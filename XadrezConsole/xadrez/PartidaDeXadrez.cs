@@ -326,7 +326,7 @@ namespace xadrez
 
         public void colocarNovaPeca(char coluna, int linha, Peca peca)
         {
-            tab.colocarPeca(peca, new PosicaoXadrez(coluna, linha).toPosicao());
+            tab.colocarPeca(peca, new PosicaoXadrez(coluna, linha).toPosition());
             pecas.Add(peca);
         }
 
